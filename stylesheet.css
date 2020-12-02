@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Architects Daughter', cursive;
+    background-image: url(images/NocromWebsiteBanner.png)
 }
 
 ul {
@@ -19,7 +20,7 @@ li:hover {
 }
 
 .navlinks {
-    background-color: purple;
+    background-image: url(images/navbar.png);
     color: white;
     text-align:center;
     font-size: 1.2rem;
