@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+    background: url(images/NocromWebsiteBanner.png) no-repeat center center fixed;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;  
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid white
+}
+
+li:hover {
+    background-color: black
+}
+
+.navlinks {
+    background: url(images/navbar.png);
+    color: white;
+    text-align:center;
+    font-size: 1.2rem;
+
+}
+
+.navlinks ul li a{
+    color: white;
+}
+
+.imagebanner {
+    background: url("images/imagebanner.jpg");
+    padding: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    text-align:center;
+    color:white;
+    background-color:black
+}
+
+.introduction {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Goldman', cursive;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.media {
+    text-align: center;
+    margin: 150pxpx;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+    
+    li {
+            display: inline-block;
+            border-bottom: 0px;
+            border-left: 1px solid white;
+    }
+
+    .media {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+}
+
+.information {
+    text-align: center;
+    margin: 150pxpx;
+    color: white;
+}
+
+.video {
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+}
+
