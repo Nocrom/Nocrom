@@ -83,7 +83,7 @@ img {
 .information {
     text-align: center;
     margin: 150pxpx;
-text-color: white;
+    color: white;
 }
 
 .video {
@@ -92,3 +92,4 @@ text-color: white;
     font-family: 'Do Hyeon', sans-serif;
     color: white;
 }
+
